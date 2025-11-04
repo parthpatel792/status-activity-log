@@ -1,14 +1,11 @@
 {
-  "name": "yourgithubname/status-activity-log",
-  "description": "A simple Laravel package to track model status updates and user activity logs.",
+  "name": "parthpatel792/status-activity-log",
+  "description": "A Laravel package to automatically log model status updates and user activity.",
   "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Parth Patel",
-      "email": "parthradadiya49@gmail.com"
-    }
-  ],
+  "require": {
+    "php": ">=8.2",
+    "illuminate/support": "^10.0|^11.0"
+  },
   "autoload": {
     "psr-4": {
       "StatusActivityLog\\": "src/"
@@ -21,9 +18,12 @@
       ]
     }
   },
-  "require": {
-    "php": "^8.1",
-    "illuminate/support": "^10.0|^11.0"
-  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Parth Patel",
+      "email": "parthradadiya49@gmail.com"
+    }
+  ],
   "minimum-stability": "stable"
 }

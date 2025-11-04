@@ -7,7 +7,7 @@ A lightweight Laravel package to automatically log model activities and status c
 ## 🚀 Installation
 
 ```bash
-composer require yourgithubname/status-activity-log
+composer require parthpatel792/status-activity-log
 
 
 ⚙️ Setup
